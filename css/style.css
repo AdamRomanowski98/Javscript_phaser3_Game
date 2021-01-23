@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2family=Montserrat:ital,wght@1,200&family=Turret+Road&display=swap');
+
+body{ 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2F3336;
+    color: #efefef;
+    font-size: 17px;    
+}
+
+/* wrapper style */
+h1.logo{    
+    font-size: 42px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Turret Road', cursive;
+}
+
+#clock{
+    float: left;
+    width: 50%;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Turret Road', cursive;
+}
+
+/* ending of wrapper style */
+
+/* nav style */
+#nav{   
+    background-color: #1c75b1;
+    text-align: center;
+    width:100%;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;    
+}
+
+.smalllogo{   
+    float: left;
+    margin-left: 260px;   
+}
+
+.menu{
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size:18px;
+    line-height: 200%;
+   }
+
+.menu>li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100px; 
+}
+
+.menu a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover
+{
+    color: black;
+    transition: all 0.3s ease 0s;   
+}
+/* nav style */
+
+/* content style */
+#container{    
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+#introduction{    
+    width: 380px;
+    text-align: center;
+    padding: 0;
+    background-color: #222930;
+    height: 500px;
+    float: left;
+    margin: 10px;
+}
+
+#introduction p{	
+	font-size: 25px;
+}
+
+#introduction h1{
+	font-size: 30px;	
+}
+
+#screenshots {
+    width: 580px;
+    float: left;
+   
+}
+
+.screenshot1 {
+    margin: 10px;
+    width: 245px;
+    height: 240px;
+    background-color: #1c75b1;
+    float: left; 
+}
+
+.screenshot2 {
+    margin: 10px;
+    width: 245px;
+    height: 240px;
+    background-color: #1c75b1;
+    float: left;
+}
+
+.screenshot3 {
+    margin: 10px;
+    width: 245px;
+    height: 240px;
+    background-color: #1c75b1;
+    float: left;
+}
+
+.screenshot4 {
+    margin: 10px;
+    width: 245px;
+    height: 240px;
+    background-color: #1c75b1;
+    float: left;  
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    margin-top:30px;
+}
+
+#my-game {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+#rankingHeader{
+	text-align: center;
+	font-size: 35px;	
+}
+#ranking{
+    
+    width: 1000px;
+    background-color: #222930;
+    height: 500px;
+    margin: 10px;
+    float: left;
+}
+
+#highScoresList{
+	border-top: solid 1px;
+	display: table-row;
+}
+
+.high-score{
+	font-size: 23px;
+	padding: 10px;
+	list-style-type: none;
+   	border: 1px solid;
+	margin: 0 10px 0 10px;
+	width: 960px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.selected {
+    font-size: 30px;
+}
+
+/* ending of content style */
+#describtion{
+    
+    width: 330px;
+    margin: 10px;
+    background-color: #222930;
+    float: left;
+    height: 500px;
+}
+
+/* registration/login form style */
+#loginPara{
+    
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;  
+}
+
+#loginPara h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding: 13px 0;
+    text-align: center;   
+}
+
+#register-box{
+    
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    
+}
+
+#register-box h1{
+    
+    
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding: 13px 0;
+    text-align: center; 
+}
+
+.textbox{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #1c75b1;
+}
+
+.textbox input{
+    
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+}
+
+button{
+	
+	width: 100%;
+    background: none;
+    border: 1px solid #1c75b1;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: gray;
+}
+
+#loginmsg{
+	
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+#Result{
+	
+	margin-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	color: crimson;
+}
+
+
+#loginmsg:hover{
+	
+	color: #1c75b2;
+	
+}
+
+
+button:hover{
+    
+    background-color: #1c75b1;
+}
+
+a{
+    
+    color: #fff;
+    text-decoration: none;
+}
+
+#loginFailure {
+	
+	text-align: center;
+	color: crimson;
+	font-size: 20px;
+	
+}
+
+#rankingTable{
+	
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 24px;
+	margin-top: 60px;
+	
+}
+
+#head{
+	
+	text-align: left;
+	font-size: 40px;
+	padding-bottom: 40px;
+}
+
+#tbody{
+	
+	text-align: right;
+	
+}
+
+
+
+/* ending of registration/login form style */
+
+
+
+
+
+
+
+
